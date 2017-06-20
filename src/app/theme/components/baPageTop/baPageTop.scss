@@ -33,6 +33,7 @@
     float: left;
     outline: none !important;
     line-height: 60px;
+    margin-left: 50%;
 
     span {
       color: $primary;
@@ -98,7 +99,7 @@
   }
 
   a.collapse-menu-link {
-    font-size: 31px;
+    font-size: 45px;
     cursor: pointer;
     display: block;
     text-decoration: none;
