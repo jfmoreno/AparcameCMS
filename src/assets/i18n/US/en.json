@@ -56,9 +56,9 @@
     "created_with": "Created with"
   },
   "dashboard": {
-    "acquisition_channels": "Acquisition Channels",
+    "usuarios_por_edades": "Usuarios por Edades",
     "users_by_country": "Users by Country",
-    "revenue": "Revenue",
+    "parkings_aparcame": "Parkings Aparcame",
     "feed": "Feed",
     "todo_list": "To Do List",
     "calendar": "Calendar",
@@ -77,7 +77,7 @@
       "task_todo": "Task to do.."
     },
     "traffic_chart": {
-      "view_total": "Views Total"
+      "usuarios_totales": "Usuarios Totales"
     }
   },
   "tree_view": {

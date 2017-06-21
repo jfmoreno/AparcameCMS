@@ -1,3 +1,5 @@
+import { ZonasParkings } from './zonasParkings/leafletMaps.component';
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -40,6 +42,7 @@ import { UsersMapService } from './usersMap/usersMap.service';
     UsersMap,
     LineChart,
     Dashboard,
+    ZonasParkings,
     //Feed,
     //Todo,
     //Calendar,
