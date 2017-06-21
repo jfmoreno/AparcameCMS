@@ -7,7 +7,7 @@ import { NgaModule } from '../../theme/nga.module';
 import { Dashboard } from './dashboard.component';
 import { routing } from './dashboard.routing';
 
-import { PopularApp } from './popularApp';
+//import { PopularApp } from './popularApp';
 import { PieChart } from './pieChart';
 import { TrafficChart } from './trafficChart';
 import { UsersMap } from './usersMap';
@@ -34,7 +34,7 @@ import { UsersMapService } from './usersMap/usersMap.service';
     routing,
   ],
   declarations: [
-    PopularApp,
+    //PopularApp,
     PieChart,
     TrafficChart,
     UsersMap,

@@ -12,25 +12,25 @@ export class PieChartService {
     return [
       {
         color: pieColor,
-        description: 'dashboard.new_visits',
-        stats: '57,820',
+        description: 'dashboard.usuarios_totales',
+        stats: '5.000',
         icon: 'person',
       }, {
         color: pieColor,
-        description: 'dashboard.purchases',
-        stats: '$ 89,745',
-        icon: 'money',
+        description: 'dashboard.parkings',
+        stats: '5',
+        icon: 'parkings',
       }, {
         color: pieColor,
-        description: 'dashboard.active_users',
-        stats: '178,391',
-        icon: 'face',
+        description: 'dashboard.plazas_totales',
+        stats: '10.000',
+        icon: 'plazastotales',
       }, {
         color: pieColor,
-        description: 'dashboard.returned',
-        stats: '32,592',
-        icon: 'refresh',
-      }
+        description: 'dashboard.plazas_libres',
+        stats: '700',
+        icon: 'plazaslibres',
+      },
     ];
   }
 }

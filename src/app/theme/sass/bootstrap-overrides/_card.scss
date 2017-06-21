@@ -67,6 +67,16 @@ $card-header-font-size: 16px;
   }
 }
 
+@media screen and (min-width: 1300px) {
+.card {
+  > .card-body {
+    padding: 15px 10px;
+  }
+}
+}
+
+
+
 .card-header, .card-footer {
   color: $content-text;
   border-bottom: $bootstrap-panel-header-border;

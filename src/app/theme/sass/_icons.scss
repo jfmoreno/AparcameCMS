@@ -32,8 +32,10 @@
 
 @mixin png-icon-class($iconName, $width, $height) {
   .#{'i-' + $iconName} {
-    @include png-icon($images-root + $iconName + '.png', $width, $height);
+    @include png-icon('/assets/img/' + $iconName + '.png', $width, $height);
   }
 }
 
-//@include icon-png-class('arrival-icon', 11, 11);
+@include png-icon-class('plazastotales', 80, 80);
+@include png-icon-class('parkings', 80, 80);
+@include png-icon-class('plazaslibres', 80, 80);

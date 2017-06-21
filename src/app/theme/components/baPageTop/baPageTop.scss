@@ -25,20 +25,25 @@
   }
 
   a.al-logo {
-    color: $sidebar-text;
+    //color: $sidebar-text;
     display: block;
-    font-size: 24px;
-    font-family: $font-family;
-    white-space: nowrap;
-    float: left;
-    outline: none !important;
-    line-height: 60px;
-    margin-left: 50%;
+    //font-size: 24px;
+    //font-family: $font-family;
+    //white-space: nowrap;
+    //float: left;
+    //outline: none !important;
+    line-height: 75px;
+    text-align: center;
+   
 
     span {
       color: $primary;
     }
   }
+  img.logoAparcame {
+      width: 240px;
+  }
+
 
   a.al-logo:hover {
     color: $primary;
@@ -103,11 +108,11 @@
     cursor: pointer;
     display: block;
     text-decoration: none;
-    line-height: 42px;
+    line-height: 45px;
     color: $sidebar-text;
     padding: 0;
     float: left;
-    margin: 11px 0 0 25px;
+    margin: 15px 0 0 0px;
 
     &:hover {
       text-decoration: none;
