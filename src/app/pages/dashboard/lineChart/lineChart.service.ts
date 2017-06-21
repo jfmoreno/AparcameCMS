@@ -10,7 +10,8 @@ export class LineChartService {
   getData() {
 
     let layoutColors = this._baConfig.get().colors;
-    let graphColor = this._baConfig.get().colors.custom.dashboardLineChart;
+    let anterior = this._baConfig.get().colors.dangerLight2;
+    let actual = this._baConfig.get().colors.successLight2;
 
     return {
       type: 'serial',
@@ -26,18 +27,18 @@ export class LineChartService {
         { date: new Date(2013, 0), value: 15000, value0: 19000 },
         { date: new Date(2013, 1), value: 30000, value0: 20000 },
 */
-        { date: new Date(2013, 1), value: 25000, value0: 22000 },
-        { date: new Date(2013, 2), value: 25000, value0: 22000 },
-        { date: new Date(2013, 3), value: 21000, value0: 25000 },
-        { date: new Date(2013, 4), value: 24000, value0: 29000 },
-        { date: new Date(2013, 5), value: 31000, value0: 26000 },
-        { date: new Date(2013, 6), value: 40000, value0: 25000 },
-        { date: new Date(2013, 7), value: 37000, value0: 20000 },
-        { date: new Date(2013, 8), value: 18000, value0: 22000 },
-        { date: new Date(2013, 9), value: 5000, value0: 26000 },
-        { date: new Date(2013, 10), value: 40000, value0: 30000 },
-        { date: new Date(2013, 11), value: 20000, value0: 25000 },
-        { date: new Date(2014, 0), value: 5000, value0: 13000 },
+        { date: new Date(2013, 1), value: 0, value0: 8000 },
+        { date: new Date(2013, 2), value: 0, value0: 10000 },
+        { date: new Date(2013, 3), value: 0, value0: 15000 },
+        { date: new Date(2013, 4), value: 0, value0: 20000 },
+        { date: new Date(2013, 5), value: 0, value0: 25000 },
+        { date: new Date(2013, 6), value: 0, value0: 25000 },
+        { date: new Date(2013, 7), value: 0, value0: 30000 },
+        { date: new Date(2013, 8), value: 0, value0: 32000 },
+        { date: new Date(2013, 9), value: 1000, value0: 35000 },
+        { date: new Date(2013, 10), value: 2000, value0: 40000 },
+        { date: new Date(2013, 11), value: 3000, value0: 45000 },
+        { date: new Date(2014, 0), value: 5000, value0: 50000 },
 /*
         { date: new Date(2014, 1), value: 3000, value0: 13000 },
         { date: new Date(2014, 2), value: 1800, value0: 13000 },
@@ -74,7 +75,7 @@ export class LineChartService {
           id: 'g0',
           bullet: 'none',
           useLineColorForBulletBorder: true,
-          lineColor: colorHelper.hexToRgbA(graphColor, 0.3),
+          lineColor: colorHelper.hexToRgbA(actual, 0.20),
           lineThickness: 1,
           negativeLineColor: layoutColors.danger,
           type: 'smoothedLine',
@@ -86,7 +87,7 @@ export class LineChartService {
           id: 'g1',
           bullet: 'none',
           useLineColorForBulletBorder: true,
-          lineColor: colorHelper.hexToRgbA(graphColor, 0.15),
+          lineColor: colorHelper.hexToRgbA(anterior, 0.35),
           lineThickness: 1,
           negativeLineColor: layoutColors.danger,
           type: 'smoothedLine',

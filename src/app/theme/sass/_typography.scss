@@ -388,9 +388,14 @@ a.learn-more {
     padding: 35px 10px 35px;
   }
 }
+@media (max-width: 765px) {
+  img.logoAparcamebanner {
+      width: 75%;
+  }
+}
 
 
-@media (min-width: 620px) {
+@media (max-width: 620px) {
   img.logoAparcamebanner {
       width: 75%;
   }
@@ -411,7 +416,7 @@ a.learn-more {
   }
 }
 
-@media (min-width: 497px) {
+@media (max-width: 497px) {
   img.logoAparcamebanner {
       width: 85%;
   }

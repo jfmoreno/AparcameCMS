@@ -32,9 +32,7 @@ export class ZonasParkings {
       .bindPopup('Universidad de Alicante')
       .openPopup();
     var santaPola = L.marker([38.19619358349161, -0.5629514157772064]).addTo(map)
-      .bindPopup('Parking Cementerio')
+      .bindPopup('Parking Cementerio');
       
-      
-
   }
 }

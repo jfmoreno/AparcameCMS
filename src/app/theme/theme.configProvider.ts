@@ -55,9 +55,11 @@ export class BaThemeConfigProvider {
 
         primaryLight: colorHelper.tint(this.colorScheme.primary, 30),
         infoLight: colorHelper.tint(this.colorScheme.info, 30),
-        successLight: colorHelper.tint(this.colorScheme.success, 30),
+        successLight: colorHelper.tint(this.colorScheme.success, 30),//Verde
         warningLight: colorHelper.tint(this.colorScheme.warning, 30),
         dangerLight: colorHelper.tint(this.colorScheme.danger, 30),
+        successLight2: colorHelper.tint(this.colorScheme.success, 0),//Verde
+        dangerLight2: colorHelper.tint(this.colorScheme.danger, 0), //Rojo
 
         primaryDark: colorHelper.shade(this.colorScheme.primary, 15),
         infoDark: colorHelper.shade(this.colorScheme.info, 15),
