@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
+
 @Component({
-  selector: 'ui',
-  template: `<router-outlet></router-outlet>`,
+  selector: 'parking1',
+  templateUrl: './parking1.html',
 })
-export class Ui {
+export class Parking1 {
 
   constructor() {
   }

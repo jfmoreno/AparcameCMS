@@ -1,4 +1,4 @@
-import { ZonasParkings } from './zonasParkings/leafletMaps.component';
+
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -21,6 +21,8 @@ import { LineChart } from './lineChart';
 //import { CalendarService } from './calendar/calendar.service';
 //import { FeedService } from './feed/feed.service';
 //import { TodoService } from './todo/todo.service';
+
+import { ZonasParkings } from './zonasParkings/leafletMaps.component';
 
 import { LineChartService } from './lineChart/lineChart.service';
 import { PieChartService } from './pieChart/pieChart.service';

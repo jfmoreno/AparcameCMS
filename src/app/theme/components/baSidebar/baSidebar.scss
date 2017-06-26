@@ -44,7 +44,8 @@ $angle-right: '\f101';
 
 :host /deep/ {
   .al-sidebar {
-    width: $sidebar-width;
+    width: 210px;
+    //width: $sidebar-width;
     top: $top-height;
     left: 0;
     z-index: 1001;
@@ -141,7 +142,7 @@ $angle-right: '\f101';
       text-shadow: none;
       font-size: 18px;
       position: absolute;
-      right: 10px;
+      right: 5px;
       top: 12px;
       padding: 0;
       text-align: center;
@@ -165,7 +166,8 @@ $angle-right: '\f101';
     background: $primary;
     position: absolute;
     top: -150px;
-    left: $sidebar-width - $sidebar-scroll-width;
+    left: 210px - $sidebar-scroll-width;
+    //left: $sidebar-width - $sidebar-scroll-width;
     transition: all 0.5s ease;
     transition-property: top, height;
     height: 42px;

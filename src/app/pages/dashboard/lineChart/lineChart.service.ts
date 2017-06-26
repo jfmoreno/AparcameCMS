@@ -75,7 +75,7 @@ export class LineChartService {
           id: 'g0',
           bullet: 'none',
           useLineColorForBulletBorder: true,
-          lineColor: colorHelper.hexToRgbA(actual, 0.20),
+          lineColor: colorHelper.hexToRgbA(actual, 0.2),
           lineThickness: 1,
           negativeLineColor: layoutColors.danger,
           type: 'smoothedLine',

@@ -15,6 +15,79 @@ export const PAGES_MENU = [
         }
       },
 
+
+      {
+        path: 'uniAlicante',
+        data: {
+          menu: {
+            title: 'general.menu.universidad_alicante',
+            icon: 'ion-stats-bars',
+            selected: false,
+            expanded: false,
+            order: 300,
+          }
+        },
+        children: [
+          {
+            path: 'parking1',
+            data: {
+              menu: {
+                title: 'general.menu.parking1',
+              }
+            }
+          },
+          {
+            path: 'parking2',
+            data: {
+              menu: {
+                title: 'general.menu.parking2',
+              }
+            }
+          },
+          {
+            path: 'parking3',
+            data: {
+              menu: {
+                title: 'general.menu.parking3',
+              }
+            }
+          },
+          {
+            path: 'parking4',
+            data: {
+              menu: {
+                title: 'general.menu.parking4',
+              }
+            }
+          },
+          {
+            path: 'parking5',
+            data: {
+              menu: {
+                title: 'general.menu.parking5',
+              }
+            }
+          },
+          {
+            path: 'parking6',
+            data: {
+              menu: {
+                title: 'general.menu.parking6',
+              }
+            }
+          },
+        ]
+      },
+
+
+
+
+
+
+
+
+
+
       {
         path: 'charts',
         data: {
