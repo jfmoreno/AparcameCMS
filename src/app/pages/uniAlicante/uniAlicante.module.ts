@@ -1,4 +1,4 @@
-
+import { ZonaParking1 } from './components/parking1/zonaParking1/leafletMaps.component';
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -24,6 +24,8 @@ import { Parking1 } from './components/parking1/parking1.component';
   declarations: [
     UniAlicante,
     Parking1,
+    ZonaParking1,
+
   ],
   entryComponents: [
   ],
