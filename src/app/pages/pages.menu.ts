@@ -10,7 +10,7 @@ export const PAGES_MENU = [
             icon: 'ion-android-home',
             selected: false,
             expanded: false,
-            order: 0
+            order: 0,
           }
         }
       },

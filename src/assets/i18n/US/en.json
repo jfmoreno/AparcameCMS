@@ -29,8 +29,8 @@
         "chartist_js": "Chartist.Js",
         "universidad_alicante": "Universidad de Alicante",
         "parking1": "Parking F. Economia",
-        "parking2": "Parking 2",
-        "parking3": "Parking 3",
+        "parking2": "Parking Museo UA",
+        "parking3": "Parking Politecnica 4",
         "parking4": "Parking 4",
         "parking5": "Parking 5",
         "parking6": "Parking 6",
@@ -102,6 +102,7 @@
     "lua": "Lua"
   },
   "chart": {
+    "ocupacion": "Ocupación por día",
     "lines": "Lines",
     "bars": "Bars",
     "simple_line_chart": "Simple line chart",

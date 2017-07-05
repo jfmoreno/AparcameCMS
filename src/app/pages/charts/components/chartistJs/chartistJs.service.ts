@@ -26,6 +26,7 @@ export class ChartistJsService {
         [3, 6, 30, 33, 43],
       ],
     },
+    
     //LINE CHART WITH AREA
     areaLineData: {
       labels: [1000, 5000, 10000, 15000, 20000, 25000, 30000, 35000],
