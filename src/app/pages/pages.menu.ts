@@ -81,13 +81,6 @@ export const PAGES_MENU = [
 
 
 
-
-
-
-
-
-
-
       {
         path: 'charts',
         data: {
@@ -221,6 +214,43 @@ export const PAGES_MENU = [
         ]
       },
 
+      {
+        path: 'tables',
+        data: {
+          menu: {
+            title: 'general.menu.tables',
+            icon: 'ion-grid',
+            selected: false,
+            expanded: false,
+            order: 500,
+          }
+        },
+        children: [
+          {
+            path: 'smarttables',
+            data: {
+              menu: {
+                title: 'general.menu.smart_tables',
+              }
+            }
+          },
+          {
+            path: 'datatables',
+            data: {
+              menu: {
+                title: 'Data Tables',
+              }
+            }
+          },
+        ],
+      },
+
+
+
+
+
+
+
       /*
       {
         path: 'editors',
@@ -296,6 +326,7 @@ export const PAGES_MENU = [
           }
         ]
       },
+     
       {
         path: 'tables',
         data: {

@@ -20,7 +20,7 @@ export const routes: Routes = [
       //{ path: 'editors', loadChildren: './editors/editors.module#EditorsModule' },
       //{ path: 'components', loadChildren: './components/components.module#ComponentsModule' },
       //{ path: 'forms', loadChildren: './forms/forms.module#FormsModule' },
-      //{ path: 'tables', loadChildren: './tables/tables.module#TablesModule' },
+      { path: 'tables', loadChildren: './tables/tables.module#TablesModule' },
     ],
   },
     /*
