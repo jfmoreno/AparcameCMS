@@ -11,6 +11,7 @@ import { Buttons } from './components/buttons/buttons.component';
 import { Grid } from './components/grid/grid.component';
 import { Icons } from './components/icons/icons.component';
 import { Modals } from './components/modals/modals.component';
+
 import { SlimComponent } from './components/slim/slim.component';
 import { Typography } from './components/typography/typography.component';
 

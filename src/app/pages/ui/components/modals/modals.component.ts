@@ -5,7 +5,7 @@ import { DefaultModal } from './default-modal/default-modal.component';
 @Component({
   selector: 'modals',
   styleUrls: ['./modals.scss'],
-  templateUrl: './modals.html'
+  templateUrl: './modals.html',
 })
 export class Modals {
 

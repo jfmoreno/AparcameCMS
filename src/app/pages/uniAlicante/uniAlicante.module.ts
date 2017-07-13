@@ -1,24 +1,24 @@
 //PARKING 3 POLI 4
-import { ChartistJsService3 } from './components/parking3/chartistJs3/chartistJs3.service';
-import { ChartistJs3 } from './components/parking3/chartistJs3/chartistJs3.component';
-import { PieChartService3 } from './components/parking3/pieChart3/pieChart3.service';
-import { PieChart3 } from './components/parking3/pieChart3/pieChart3.component';
-import { ZonaParking3 } from './components/parking3/zonaParking3/leafletMaps3.component';
-import { Parking3 } from './components/parking3/parking3.component';
+import { ChartistJsService3 } from './parking3/chartistJs3/chartistJs3.service';
+import { ChartistJs3 } from './parking3/chartistJs3/chartistJs3.component';
+import { PieChartService3 } from './parking3/pieChart3/pieChart3.service';
+import { PieChart3 } from './parking3/pieChart3/pieChart3.component';
+import { ZonaParking3 } from './parking3/zonaParking3/leafletMaps3.component';
+import { Parking3 } from './parking3/parking3.component';
 //PARKING 2 MUSEO
-import { ChartistJsService2 } from './components/parking2/chartistJs2/chartistJs2.service';
-import { ChartistJs2 } from './components/parking2/chartistJs2/chartistJs2.component';
-import { PieChartService2 } from './components/parking2/pieChart2/pieChart2.service';
-import { PieChart2 } from './components/parking2/pieChart2/pieChart2.component';
-import { ZonaParking2 } from './components/parking2/zonaParking2/leafletMaps2.component';
-import { Parking2 } from './components/parking2/parking2.component';
+import { ChartistJsService2 } from './parking2/chartistJs2/chartistJs2.service';
+import { ChartistJs2 } from './parking2/chartistJs2/chartistJs2.component';
+import { PieChartService2 } from './parking2/pieChart2/pieChart2.service';
+import { PieChart2 } from './parking2/pieChart2/pieChart2.component';
+import { ZonaParking2 } from './parking2/zonaParking2/leafletMaps2.component';
+import { Parking2 } from './parking2/parking2.component';
 //PARKING 1 ECONOMIA
-import { ChartistJsService } from './components/parking1/chartistJs/chartistJs.service';
-import { ChartistJs } from './components/parking1/chartistJs/chartistJs.component';
-import { PieChartService } from './components/parking1/pieChart/pieChart.service';
-import { PieChart } from './components/parking1/pieChart/pieChart.component';
-import { ZonaParking1 } from './components/parking1/zonaParking1/leafletMaps.component';
-import { Parking1 } from './components/parking1/parking1.component';
+import { ChartistJsService } from './parking1/chartistJs/chartistJs.service';
+import { ChartistJs } from './parking1/chartistJs/chartistJs.component';
+import { PieChartService } from './parking1/pieChart/pieChart.service';
+import { PieChart } from './parking1/pieChart/pieChart.component';
+import { ZonaParking } from './parking1/zonaParking/leafletMaps.component';
+import { Parking1 } from './parking1/parking1.component';
 
 
 import { NgModule } from '@angular/core';
@@ -46,7 +46,7 @@ import { UniAlicante } from './uniAlicante.component';
     UniAlicante,
     //PARKING 1
     Parking1,
-    ZonaParking1,
+    ZonaParking,
     PieChart,
     ChartistJs,
     //PARKING 2

@@ -21,6 +21,8 @@
       },
       "menu": {
         "home": "Home",
+        "busqueda_parking": "Buscar Parkings",
+        "parking_estadisticas": "Estadisticas del Parking",
         "editors": "Editors",
         "ck_editor": "CKEditor",
         "components": "Components",

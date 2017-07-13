@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+ul.pagination.pull-right.float-sm-right {
+    margin-bottom: 5px;
+}
+
+@media (min-width: 992px) {
+    .modal-dialog {
+        max-width: 99%;
+        margin: 5px auto;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 99%;
+        margin: 5px auto;
+    }
+  }
+

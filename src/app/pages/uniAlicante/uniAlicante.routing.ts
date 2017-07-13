@@ -2,9 +2,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { UniAlicante } from './uniAlicante.component';
 
-import { Parking1 } from './components/parking1/parking1.component';
-import { Parking2 } from './components/parking2/parking2.component';
-import { Parking3 } from './components/parking3/parking3.component';
+import { Parking1 } from './parking1/parking1.component';
+import { Parking2 } from './parking2/parking2.component';
+import { Parking3 } from './parking3/parking3.component';
 
 /*import { Parking4 } from './components/parking4/parking4.component';
 import { Parking5 } from './components/parking5/parking5.component';

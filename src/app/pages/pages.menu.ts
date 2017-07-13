@@ -11,8 +11,33 @@ export const PAGES_MENU = [
             selected: false,
             expanded: false,
             order: 0,
-          }
-        }
+          },
+        },
+      },
+
+      {
+        path: 'parkings',
+        data: {
+          menu: {
+            title: 'general.menu.busqueda_parking',
+            icon: 'ion-search',
+            selected: false,
+            expanded: false,
+            order: 3,
+          },
+        },
+      },
+      {
+        path: 'pEstadisticas',
+        data: {
+          menu: {
+            title: 'general.menu.parking_estadisticas',
+            icon: 'ion-stats-bars',
+            selected: false,
+            expanded: false,
+            order: 4,
+          },
+        },
       },
 
 
@@ -25,7 +50,7 @@ export const PAGES_MENU = [
             selected: false,
             expanded: false,
             order: 300,
-          }
+          },
         },
         children: [
           {
@@ -33,52 +58,51 @@ export const PAGES_MENU = [
             data: {
               menu: {
                 title: 'general.menu.parking1',
-              }
-            }
+              },
+            },
           },
           {
             path: 'parking2',
             data: {
               menu: {
                 title: 'general.menu.parking2',
-              }
-            }
+              },
+            },
           },
           {
             path: 'parking3',
             data: {
               menu: {
                 title: 'general.menu.parking3',
-              }
-            }
+              },
+            },
           },
           {
             path: 'parking4',
             data: {
               menu: {
                 title: 'general.menu.parking4',
-              }
-            }
+              },
+            },
           },
           {
             path: 'parking5',
             data: {
               menu: {
                 title: 'general.menu.parking5',
-              }
-            }
+              },
+            },
           },
           {
             path: 'parking6',
             data: {
               menu: {
                 title: 'general.menu.parking6',
-              }
-            }
+              },
+            },
           },
-        ]
+        ],
       },
-
 
 
       {
@@ -90,7 +114,7 @@ export const PAGES_MENU = [
             selected: false,
             expanded: false,
             order: 200,
-          }
+          },
         },
         children: [
           {
@@ -98,10 +122,10 @@ export const PAGES_MENU = [
             data: {
               menu: {
                 title: 'general.menu.chartist_js',
-              }
-            }
-          }
-        ]
+              },
+            },
+          },
+        ],
       },
 
       {
@@ -113,7 +137,7 @@ export const PAGES_MENU = [
             selected: false,
             expanded: false,
             order: 300,
-          }
+          },
         },
         children: [
           {
@@ -121,50 +145,50 @@ export const PAGES_MENU = [
             data: {
               menu: {
                 title: 'general.menu.typography',
-              }
-            }
+              },
+            },
           },
           {
             path: 'buttons',
             data: {
               menu: {
                 title: 'general.menu.buttons',
-              }
-            }
+              },
+            },
           },
           {
             path: 'icons',
             data: {
               menu: {
                 title: 'general.menu.icons',
-              }
-            }
+              },
+            },
           },
           {
             path: 'modals',
             data: {
               menu: {
                 title: 'general.menu.modals',
-              }
-            }
+              },
+            },
           },
           {
             path: 'slim',
             data: {
               menu: {
                 title: 'Slim loading bar',
-              }
-            }
+              },
+            },
           },
           {
             path: 'grid',
             data: {
               menu: {
                 title: 'general.menu.grid',
-              }
-            }
+              },
+            },
           },
-        ]
+        ],
       },
 
       {
@@ -176,7 +200,7 @@ export const PAGES_MENU = [
             selected: false,
             expanded: false,
             order: 600,
-          }
+          },
         },
         children: [
           {
@@ -184,34 +208,34 @@ export const PAGES_MENU = [
             data: {
               menu: {
                 title: 'general.menu.google_maps',
-              }
-            }
+              },
+            },
           },
           {
             path: 'leafletmaps',
             data: {
               menu: {
                 title: 'general.menu.leaflet_maps',
-              }
-            }
+              },
+            },
           },
           {
             path: 'bubblemaps',
             data: {
               menu: {
                 title: 'general.menu.bubble_maps',
-              }
-            }
+              },
+            },
           },
           {
             path: 'linemaps',
             data: {
               menu: {
                 title: 'general.menu.line_maps',
-              }
-            }
-          }
-        ]
+              },
+            },
+          },
+        ],
       },
 
       {
@@ -223,32 +247,43 @@ export const PAGES_MENU = [
             selected: false,
             expanded: false,
             order: 500,
-          }
+          },
         },
         children: [
+          {
+            path: 'basictables',
+            data: {
+              menu: {
+                title: 'general.menu.basic_tables',
+              },
+            },
+          },
           {
             path: 'smarttables',
             data: {
               menu: {
                 title: 'general.menu.smart_tables',
-              }
-            }
+              },
+            },
           },
           {
             path: 'datatables',
             data: {
               menu: {
                 title: 'Data Tables',
-              }
-            }
+              },
+            },
+          },
+           {
+             path: 'hottables',
+             data: {
+               menu: {
+                 title: 'Hot Tables',
+               },
+             },
           },
         ],
       },
-
-
-
-
-
 
 
       /*
@@ -460,6 +495,6 @@ export const PAGES_MENU = [
       }
       */
 
-    ]
-  }
+    ],
+  },
 ];
