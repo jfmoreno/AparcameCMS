@@ -27,6 +27,7 @@ export const PAGES_MENU = [
           },
         },
       },
+      /*
       {
         path: 'pEstadisticas',
         data: {
@@ -39,7 +40,7 @@ export const PAGES_MENU = [
           },
         },
       },
-
+      */
 
       {
         path: 'uniAlicante',
@@ -74,30 +75,6 @@ export const PAGES_MENU = [
             data: {
               menu: {
                 title: 'general.menu.parking3',
-              },
-            },
-          },
-          {
-            path: 'parking4',
-            data: {
-              menu: {
-                title: 'general.menu.parking4',
-              },
-            },
-          },
-          {
-            path: 'parking5',
-            data: {
-              menu: {
-                title: 'general.menu.parking5',
-              },
-            },
-          },
-          {
-            path: 'parking6',
-            data: {
-              menu: {
-                title: 'general.menu.parking6',
               },
             },
           },

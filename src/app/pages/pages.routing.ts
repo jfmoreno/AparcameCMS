@@ -14,7 +14,7 @@ export const routes: Routes = [
       { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
       { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
       { path: 'parkings', loadChildren: './parkings/parkings.module#ParkingsModule' },
-      { path: 'pEstadisticas', loadChildren: './parkingEstadisticas/pEstadisticas.module#PEstadisticasModule' },
+      //{ path: 'pEstadisticas', loadChildren: './parkingEstadisticas/pEstadisticas.module#PEstadisticasModule' },
       { path: 'uniAlicante', loadChildren: './uniAlicante/uniAlicante.module#UniAlicanteModule' },
       { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
       { path: 'ui', loadChildren: './ui/ui.module#UiModule' },
