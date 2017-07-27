@@ -14,7 +14,7 @@ export class PieChartService {
        {
         color: pieColor,
         description: 'Plazas Totales',
-        stats: '150 / 200',
+        stats: '200',
         icon: 'plazastotales',
       }, {
         color: pieColor,

@@ -7,6 +7,8 @@ import { LocalDataSource } from 'ng2-smart-table';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { DefaultModal } from './default-modal/default-modal.component';
 
+//import { DatosTokenService } from './../services/datostoken.service';
+
 
 @Component({
   selector: 'parkings',

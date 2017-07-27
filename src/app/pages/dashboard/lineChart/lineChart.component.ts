@@ -1,6 +1,6 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
-import {LineChartService} from './lineChart.service';
+import { LineChartService } from './lineChart.service';
 
 @Component({
   selector: 'line-chart',

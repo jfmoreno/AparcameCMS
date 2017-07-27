@@ -6,7 +6,6 @@ import { PieChartService } from './default-modal/pieChart1/pieChart.service';
 import { ChartistJsService } from './default-modal/chartistJs1/chartistJs.service';
 
 
-
 import { DefaultModal } from './default-modal/default-modal.component';
 import { NgbModalModule, NgbDropdownModule, NgbPopoverModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -26,7 +25,6 @@ import { routing } from './parkings.routing';
 import { Parkings } from './parkings.component';
 import { ParkingsService } from './parkings.service';
 import { DataFilterPipe } from './data-filter.pipe';
-
 
 
 //import { BasicTables } from './components/basicTables/basicTables.component';

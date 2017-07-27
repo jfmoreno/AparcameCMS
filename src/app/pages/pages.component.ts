@@ -6,31 +6,8 @@ import { PAGES_MENU } from './pages.menu';
 
 @Component({
   selector: 'pages',
-  template: `
-    
-    <ba-sidebar></ba-sidebar>
-    <ba-page-top></ba-page-top>
-    
-    <div class="al-main">
-      <div class="al-content">
-       <!--<ba-content-top></ba-content-top>-->
-        <router-outlet></router-outlet>
-      </div>
-    </div>
-    
-    <footer class="al-footer clearfix">
-      
-      <div class="al-footer-main clearfix">
-        <div class="al-copy">&copy; <a href="http://www.aparcame.com/" translate>{{'general.aparcame'}}</a> 2017</div>
-        
-        <ul class="al-share clearfix">
-          <li><i class="socicon socicon-facebook"></i></li>
-        </ul>
-        
-      </div>
-    </footer>
-    <ba-back-top position="200"></ba-back-top>
-    `,
+  templateUrl: './page.html',
+
 })
 export class Pages {
 
